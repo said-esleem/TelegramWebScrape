@@ -40,6 +40,7 @@ for tag in S.findAll("div", {"class": "body"}):
     full_message = date + "" + text_message.replace("\n", " ")
     send_telegram_msg("5195978214:AAHZ-5AyXw0foQqIVpKDZByZkPHBJmkpgNw", "-1001527032139",
                                full_message)
+
     # To check if there is a tag img inside div
     if 'src' in image:
         # full_image_name = image.split('src="', 15)[1].replace('"', "")
